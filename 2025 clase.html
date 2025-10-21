@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+         <title>Subscriu-te al noticiari ITIC Barcelona</title>
+        <link rel="stylesheet" href="estils.css">
+    </head>
+
+    <body>
+        <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+        
+    <form>
+        <p>Primer, explica'ns qui ets</p>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="nom">Nom i Cognom:</label>
+        <input type="nom" id="nom" name="nom">
+        <br><br>
+
+        <label for="edad">Edat:</label>
+        <input type="edad" id="edad" name="edad">
+        <br><br>
+    </form>
+
+    <p>Quin cicle estas estudiant?</p>
+
+    <form>
+        <label><input type="radio" name="cicle" value="ASIX" checked> ASIX</label> <br></br>
+        <label><input type="radio" name="cicle" value="DAM"> DAM</label> <br></br>
+        <label><input type="radio" name="cicle" value="DAW"> DAW</label><br></br>
+
+        <p>I en qui curs?</p>
+
+        <select name="curs">
+            <option value="primer">PRIMER</option>
+            <option value="segon">SEGUNDA</option>
+        </select>
+    </form>
+
+    <form>
+        <p>Marca el temes que vulguis estar sempreal dia</p>
+
+        <label><input type="checkbox" name="tema" value="IA" checked>Inteligencia Artificial</label> <br></br>
+        <label><input type="checkbox" name="tema" value="CQ" checked>Computacion Quantica</label> <br></br>
+        <label><input type="checkbox" name="tema" value="SC" checked>SuperComputadoras</label> <br></br>
+        <label><input type="checkbox" name="tema" value="RA" checked>Recerca de Algoritmia</label> <br></br>
+
+        <p>Hi ha algun tema mes t?interessi? Explica'ns-ho!</p>
+
+        <textarea placeholder="També m'agradaria saber les últimes novetats sobre..."></textarea>
+        <br></br>
+
+        <input type="submit" value="Subscriur-me">
+    </form>
+    </body>
+</html>
